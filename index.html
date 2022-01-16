@@ -1,0 +1,209 @@
+<link rel="stylesheet" type="text/css" href="assets/style.css">
+  <header class="header">
+    <h1 class="logo"><a href="#">De tous</a></h1>
+      <ul class="main-nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="#info">Que buscamos?</a></li>
+          <li><a href="#obras">Obras literarias</a></li>
+          <li><a href="#fotos">Fotografias</a></li>
+          <li><a href="#email">Contactanos</a></li>
+
+      </ul>
+  </header>  
+
+
+<div class="container">
+    <input type="radio" name="slider" id="item-1" checked>
+    <input type="radio" name="slider" id="item-2">
+    <input type="radio" name="slider" id="item-3">
+  <div class="cards">
+    <label class="card" for="item-1" id="song-1">
+      <img src="Imagen/2.png" alt="song">
+    </label>
+
+    <label class="card" for="item-2" id="song-2">
+          <img src="Imagen/3.png" alt="song">
+    </label>
+    <label class="card" for="item-3" id="song-3">
+          <img src="Imagen/5.png" alt="song">
+    </label>
+    
+  </div> 
+
+ 
+ <script type="text/javascript">
+  $('input').on('change', function() {
+  $('body').toggleClass('blue');
+});
+ 
+
+</script>
+ 
+
+  <script src="assets/poo.js"></script> 
+ <!-- ======= Gallery Section ======= -->
+  <section id="info">
+  
+                  <h3 class="card-header text-center">¿Que buscamos?</h3>  <br>
+               <p> En <b>De Tous</b>, queremos exaltar las obras de algunos artistas que han Sido marginados y silenciados a lo largo de los años, en este espacio podrás conocerlos y lo más importante recordarlos, haciendo reflexionar sobre la importancia de reconocer nuestra historia que tanto nos une y nos representa. </p> 
+         
+       
+
+     
+ 
+  </section><!-- End Gallery Section -->
+  <!-- ======= Specials Section ======= -->
+    <section id="obras">
+  
+ 
+              <h3 class="card-header text-center">Obras literarias</h3>  <br>
+
+Aquí te vamos a mostrar solo un poco de escritoras colombianas, algunas de ellas sufrieron por mucho tiempo violencia de género por para de hombres y mujeres, es un hecho muy lamentable, pero en nosotros está la oportunidad de cambiar la forma el pensamiento hacia ellas.
+
+ </p> 
+
+         
+<p id="contenidos_1"><b>Marvel moreno: </b> <br> nació en Barranquilla en 1939 y falleció en 1995 a causa de lupus, ha tomado más reconocimiento gracias a la reimpresión y reedición de algunos de sus manuscritos. 
+Obras destacadas: <br>
+<b>En diciembre llegaban las brisas <br>
+Encuentro y otros relatos <br>
+El tiempo de las amazonas <br>
+</b>
+</p>
+<a id="enlace_1" href="#" onclick="muestraOculta('1'); return false;">Ocultar contenido</a>
+
+<br/>
+
+<p id="contenidos_2"><b>Laura Restrepo: </b> <br>
+nació en Bogotá en 1950 actualmente tiene 72 años, periodista politóloga, y filósofa. Fue una mujer muy preparada para su época, con la particularidad de que en sus obras mezclaba  reporterismo con su profunda memoria personal ya que fue víctima de violencia terrorismo y conflictos.
+
+Obras destacadas: <br>
+<b>
+Leopardo al sol <br>
+Delirio <br>
+Los divinos </b>
+ </p>
+<a id="enlace_2" href="#" onclick="muestraOculta('2'); return false;">Ocultar contenidos</a>
+
+<br/>
+<p id="contenidos_3"><b>Piedad bonett:</b> <br>
+  nació en Antioquia en 1951, es licenciada en filosofía y letras. A obtenido mucho reconocimiento con esfuerzo y sacrificio. 
+
+Obras destacada: <br>
+<b>
+El hilo de los días <br>
+Lo que no tiene nombre <br>
+Donde nadie me espere </b>
+
+</p>
+<a id="enlace_3" href="#" onclick="muestraOculta('3'); return false;">Ocultar contenidos</a>
+ 
+
+     
+ 
+  </section>
+
+    <section id="fotos">
+  
+ 
+                  <h3 class="card-header text-center">Fotográficas con historias:</h3>  <br>
+ 
+No es un secreto que Colombia ha Sido un país con varios conflictos internos y estos fotógrafos hicieron diferencia entre olvidar lo que hechos que ocurrieron, a plasmarlos en una sola imagen.  
+Algunos de ello fueron: <br>
+
+<b>Jesús Abad colorado:</b> nació en Medellín en 1968, su trabajo se ha exhibido nacional e internacionalmente, es coautor de dos libros, relatos e imágenes: el desplazamiento forzado en Colombia y la prisión y realidades de las cárceles en Colombia. <br>
+
+
+<b>Leo matiz Espinoza: </b> nació en Aracataca el 1 de abril de 1917 y falleció el 24 de octubre de 1998, fue uno de los fotógrafos y caricaturistas colombianos contando con reconocimiento internacional, además se relaciono con notables artistas de su época. <br>
+
+
+<b>Adriana duque: </b>nació en Manizales 1968, estudio artes plásticas en la universidad de caldas, tiene un largo proceso con respecto a sus creaciones y vive en una constante búsqueda de soluciones visuales que logren situar siempre la realidad de un terreno " movedizo" e inaprensible. </p> 
+         
+       
+ <br> <br>
+
+  <form name="navegador">
+   <select name="secciones" onchange="destino()">
+
+        <option value="index.html#fotos">Mas informacion sobre el personaje
+        <option value="https://es.wikipedia.org/wiki/Jes%C3%BAs_Abad_Colorado">Jesús Abad colorado
+        <option value="https://es.wikipedia.org/wiki/Leo_Matiz_Espinoza">Leo matiz Espinoza
+        <option value="https://www.adrianaduque.com/home.html">Adriana duque
+         
+       
+    </select>
+</form>
+<br> <br>  <br><br> <br><br> <br><br>
+  </section> 
+    <section id="email">
+  <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert-dev.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
+    <br>
+ <br><br>   <br><br>
+    <h3 class="card-header text-center">formulario de contacto</h3> <br>
+     
+           
+          <label for="email">Correo Electronico:</label>
+          <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com"> <br> <br>
+           
+           <label for="user">Pregunta, duda, sugerencia:</label>
+          <input type="text" class="form-control" id="user" placeholder="Usuario"> <br><br>
+        <input type="submit" onClick="mensaje()" class="btn btn-success" id="boton" value="Contactar"> 
+      </form>
+    </div>
+  </div>
+</div>
+
+  
+<script type="text/javascript">
+    function mensaje() {
+        swal({
+            title: "Realizado!",
+            text: "Perfecto, Hemos recibido tus datos, nos comunicaremos con usted lo antes posible",
+            type: "success",
+            showConfirmButton: false,
+            timer: 2000
+          }, function() {
+              window.location = "";
+        });
+        }
+
+</script>
+       
+
+     
+ 
+  </section>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
